@@ -1,0 +1,156 @@
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  width: 100%;
+}
+
+body{
+  height: calc(100vh - 50%);
+  background-image: url(../images/main-bg.svg);
+}
+
+header{
+  width: 50%;
+  height: 50%;
+  margin-left: 460px;
+}
+
+h1{
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.header-info{
+  text-align: center;
+  color: #fff;
+  margin-top: 30px;
+}
+
+.subtitle-header{
+  margin-top: 50px;
+  font-size: 26px;
+}
+
+#cortana{
+  font-style: italic;
+}
+
+.main-info-section{
+  display: inline-flex;
+}
+
+.main-atom{
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.main-eclipse{
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.main-phpstorm{
+  display: inline-flex;
+  flex-direction: column;
+}
+
+#atom-title, #atom-logo, #eclipse-title, #eclipse-logo, #phpstorm-title, #phpstorm-logo, a{
+  width: 32%;
+}
+
+#atom-title{
+  margin-left: 150px;
+  margin-top: 40px;
+}
+
+#atom-logo{
+  width: 180px;
+  margin-left: 200px;
+}
+
+#eclipse-title{
+  margin-top: 70px;
+  margin-left: -35px;
+}
+
+#eclipse-logo{
+  width: 270px;
+  margin-left: -15px;
+  margin-top: 15px;
+}
+
+#phpstorm-title{
+  width: 200px;
+  margin-top: 15px;
+  margin-left: -120px;
+}
+
+#phpstorm-logo{
+  width: 150px;
+  margin-left: -90px;
+  margin-top: 65px;
+}
+
+.footer-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+footer{
+  margin-top: 70px;
+  margin-bottom: 0;
+  padding: 39px 0;
+  background-color: rgba(0, 0, 0, .1);
+}
+
+.social-media{
+  margin: 20px 0;
+  text-align: center;
+  margin-left: -10px;
+  margin-top: 40px;
+}
+
+.social-media a{
+  margin-right: 25px;
+  font-size: 22px;
+  text-decoration: none;
+  transition: .3s linear;
+  color: white;
+}
+
+.social-media a:hover{
+  color: #c91e1e;
+}
+
+.center-content h1{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-size: 26px;
+  text-align: center;
+  color: #fff;
+  margin-top: 30px;
+  margin-left: -40px;
+}
+
+.border{
+  width: 100px;
+  height: 4px;
+  background: #c91e1e;
+  margin-top: 8px;
+  margin-left: 22px;
+}
+
+#astro{
+  float: left;
+  width: 250px;
+  margin-left: -470px;
+  margin-top: -50px;
+}
