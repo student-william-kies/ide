@@ -13,49 +13,89 @@
         <nav class="nav-links">
           <ul>
             <li><a href="../ide.html">Accueil</a></li>
-            <li><a href="#">Histoire d'Eclipse</a></li>
-            <li><a href="#">Archtecture d'Eclipse</a></li>
+            <li><a href="#history">Histoire d'Eclipse</a></li>
+            <li><a href="#architect">Archtecture d'Eclipse</a></li>
             <li><a href="#dl">Téléchargements</a></li>
           </ul>
         </nav>
-        <section class="title-header">
-          <img src="../images/eclipse-main-title.svg" alt="Titre Eclipse" id="eclipse">
-        </section>
       </section>
     </header>
     <!-- Main -->
     <main>
       <article>
         <section class="main-info-section">
+            <img src="../images/eclipse-main-title.svg" alt="Titre Eclipse" id="eclipse-logo">
+          <p id="eclipse-main-text">Eclipse est un projet, décliné et organisé en un ensemble de sous-projets
+          de développements logiciels, de la fondation Eclipse visant à développer un
+          environnement de production de logiciels libre qui soit extensible,
+          universel et polyvalent, en s'appuyant principalement sur Java.</p>
+          <br>
+          <section class="eclipse-link-website">
+            <a href="https://www.eclipse.org/" title="Vers le site d'Eclipse" target="_blank">cliquez ici</a>
+          </section>
         </section>
       </article>
     </main>
 
+    <!-- Ancre Histoire d'eclipse -->
+    <section class="eclipse-history" id="history">
+      <h1>Histoire d'Eclipse</h1>
+      <section class="eclipse-text-history">
+        <p>Le projet Eclipse a été initié par IBM pour remplacer, en utilisant Java,
+        l'IDE Visual Age, alors basé sur Smalltalk. Dès l'origine du projet,
+        IBM a voulu offrir une solution multiplate-forme, pouvant être exécutée sur
+        les différents systèmes d'exploitation de ses clients. De même le projet s'est
+        voulu extensible par le biais de plugins.</p>
+        <br>
+        <p>En novembre 2001 est initiée la Fondation Eclipse, à l'instigation de poids
+        lourds de l'informatique comme Borland, IBM ou Red Hat. IBM place
+        alors sa plateforme Eclipse en open source, et fin 2003, le consortium est
+        passé à plus de 80 membres. Eclipse est ainsi un environnement de
+        développement libre. </p>
+      </section>
+      <img src="../images/eclipse-screen-history.svg" alt="Screen eclipse" id="eclipse-screen">
+    </section>
 
+    <!-- Ancre Architecture d'Eclipse -->
+    <section class="eclipse-architect" id="architect">
+      <h1>Architecture d'Eclipse</h1>
+      <section class="eclipse-text-architect">
+        <p>Le métaprojet Eclipse est constitué et organisé en une galaxie de projets logiciels.
+        Sa spécificité tient à son architecture totalement développée autour de la notion de plugin
+        en conformité avec la norme OSGi : toutes les fonctionnalités de l'atelier logiciel doivent
+        être développées en tant que plug-in bâti autour de l'Eclipse Platform.<br><br>Eclipse propose un
+        framework de développement logiciel fournissant des briques logicielles pour développer ces outils.
+        En fait Eclipse est à la fois considéré comme un EDI, un framework ou une plateforme.</p>
+      </section>
+    </section>
 
+    <!-- Ancre téléchargements -->
+    <section class="eclipse-dl" id="dl">
+      <h1>Téléchargements</h1>
+      <section class="eclipse-info-dl">
+        <img src="../images/eclipse-logo.svg" alt="">
+        <section class="eclipse-text-dl">
+          <p>Eclipse download :</p>
+        </section>
+        <a href="https://www.eclipse.org/downloads/" id="eclipse-btn-dl" target="_blank"><i id="eclipse-logo-i" class="fa fa-download"></i><button>Télécharger</button></a>
+      </section>
+    </section>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <!-- Footer -->
+    <!--footer -->
     <footer>
+      <section class="footer-container">
+        <section class="center-content">
+          <h1>Contact</h1>
+          <section class="border"></section>
+          <section class="social-media">
+            <a href="https://twitter.com/EclipseFdn" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.facebook.com/eclipse.org" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.youtube.com/user/EclipseFdn" target="_blank"><i class="fab fa-youtube"></i></a>
+            <a href="https://www.linkedin.com/company/eclipse-foundation" target="_blank"><i class="fab fa-linkedin"></i></a>
+          </section>
+          <p>© 2020 Created by William Kies.</p>
+        </section>
+      </section>
     </footer>
   </body>
 </html>

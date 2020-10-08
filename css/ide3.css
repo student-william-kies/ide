@@ -1,4 +1,5 @@
 
+
 *{
   margin: 0;
   padding: 0;
@@ -6,17 +7,17 @@
 }
 
 html{
-  width: 100%;
+  height: 100%;
   scroll-behavior: smooth;
 }
 
 body{
-  background-color: #323232;
+  background-image: url(../images/php-main-bg.svg);
 }
 
 header{
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
   padding: 30px 160px;
   border-bottom: 1px solid #1a191a;
@@ -34,28 +35,28 @@ header{
 
 .nav-links li a{
   transition: all 0.3s ease 0s;
+  font-weight: bold;
 }
 
 .nav-links li a:hover{
-  color: #c87e13;
+  text-decoration: underline;
+  font-size: 15px;
 }
 
 li{
   list-style: none;
-  margin-left: 30px;
 }
 
 a{
   text-decoration: none;
-  font-size: .9rem;
+  font-size: .7rem;
   text-transform: uppercase;
   position: relative;
 }
 
 li, a{
   font-weight: 500;
-  margin-right: 40px;
-  font-size: 26px;
+  font-size: 14px;
   color: #edf0f1;
   text-decoration: none;
 }
@@ -72,116 +73,147 @@ nav ul{
   height: calc(100vh - 81.6px);
 }
 
-.atom-link-website a{
+.php-main-info h1{
   color: #fff;
-  font-size: 18px;
-  margin-left: 870px;
-  text-decoration: underline;
-  text-transform: uppercase;
-}
-
-#main-atom-logo{
-  width: 280px;
-  margin-left: 780px;
-  margin-top: 50px;
-}
-
-#main-text-atom{
-  color: #fff;
-  font-size: 26px;
   text-align: center;
-  margin-top: 10px;
-  margin-bottom: 50px;
+  font-size: 32px;
+  text-transform: uppercase;
+  margin-top: 12%;
+  text-shadow: 0px 0px 12px rgba(0,0,0,0.75);
 }
 
-.atom-teletype{
-  height: 100vh;
-  margin-top: 100px;
+.php-header-border{
+  width: 100px;
+  height: 4px;
+  background: #fff;
+  margin-top: 8px;
+  margin-left: 47.4%;
 }
 
-#atom-screen-teletype{
-  width: 40%;
-  margin-left: 40px;
-  margin-top: 50px;
-  border: 2px solid black;
-  border-radius: 5px;
-  box-shadow: 0 20px 30px rgba(0,0,0,0.5);
+.php-header-logo img{
+  display: flex;
+  flex-direction: column;
+  width: 10%;
+  margin-left: 45%;
+  margin-top: 3%;
+
 }
 
-.atom-text-teletype{
-  float: right;
+.php-text-info{
+  display: flex;
+  flex-direction: column;
+  font-size: 24px;
+  width: 37%;
+  text-align: left;
+  margin-left: 32%;
+  margin-top: 3%;
+  line-height: 35px;
   color: #fff;
+}
+
+span{
+  font-weight: bold;
+}
+
+.php-tool{
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  justify-content: space-between;
+  background-image: url(../images/php-tool-bg.svg);
+  color: #fff;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.php-tool-info{
   font-size: 24px;
   padding: 50px;
   position: relative;
   top: 18%;
-  left: 2%;
+  left: 5%;
   transform: translateX(-50%);
   width: 35%;
 }
 
-.atom-teletype h1, .atom-dl h1{
-  font-size: 5rem;
+.php-tool h1, .php-debug h1{
+  font-size: 4rem;
   z-index: 0;
-  color: rgba(255, 175, 24, 0.4);
 }
 
-.atom-flex-cat{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+#php-tool-screen{
+  margin-right: 5%;
+  margin-top: -2%;
 }
 
-#atom-teletype-cat{
-  margin-top: -950px;
-  margin-left: 1100px;
-}
-
-.atom-git{
+.php-framework{
   height: 100vh;
+  background-image: url(../images/php-framework-bg.svg);
+  color: #fff;
 }
 
-.atom-git h1{
-  font-size: 5rem;
-  z-index: 0;
-  color: rgba(255, 175, 24, 0.4);
+.php-framework-info{
+  font-size: 24px;
+  padding: 50px;
+  position: relative;
+  top: 32%;
+  left: 75%;
+  transform: translateX(-50%);
+  width: 35%;
   text-align: right;
 }
 
-.atom-text-git{
-  float: left;
-  font-size: 24px;
+.php-framework h1, .php-dl h1{
+  font-size: 4rem;
+  z-index: 0;
+  text-align: right;
+}
+
+#php-framework-screen{
+  margin-left: 5%;
+  margin-top: -2%;
+}
+
+.php-debug{
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  justify-content: space-between;
+  background-image: url(../images/php-debug-bg.svg);
   color: #fff;
-  max-width: 800px;
+}
+
+.php-debug-info{
+  font-size: 24px;
+  padding: 50px;
   position: relative;
-  left: 20%;
-  right: 50%;
-  margin-top: 250px;
+  top: 18%;
+  left: 5%;
+  margin-top: 6%;
   transform: translateX(-50%);
-  text-align: center;
   width: 35%;
 }
 
-#atom-screen-git{
-  width: 40%;
-  margin-left: 250px;
-  margin-top: 100px;
-  border: 2px solid black;
-  border-radius: 5px;
-  box-shadow: 0 20px 30px rgba(0,0,0,0.5);
+#debug-screen{
+  margin-right: 5%;
+  margin-top: -2%;
 }
 
-.atom-dl{
+.php-dl{
   height: 100vh;
+  background-image: url(../images/php-dl-bg.svg);
+  color: #fff;
 }
 
-.atom-info-dl{
+.php-dl-info{
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+  margin-top: 100px;
 }
 
 button{
@@ -191,53 +223,30 @@ button{
   font-size: 20px;
 }
 
-#atom-dl-logo{
-  width: 380px;
-  margin-top: 50px;
-}
-
-.atom-launcher{
-  margin-left: 800px;
-  margin-top: -300px;
-}
-
-.atom-text-dl{
-  color: #fff;
+.php-text-dl-info{
   font-size: 18px;
+  margin-top: 5%;
 }
 
-#atom-logo-i{
-  color: black;
-  margin-right: 10px;
-}
-
-#atom-other-plateforms{
-  color: grey;
-  text-transform: initial;
-  font-size: 15px;
-  margin-left: 35px;
-  text-decoration: underline;
-  transition: all 0.3s ease 0s;
-}
-
-#atom-other-plateforms:hover{
-  color: rgb(255, 175, 24);
-}
-
-#atom-btn-dl{
-  background-image: linear-gradient(to right, #ffb347 0%, #ffcc33  51%, #ffb347  100%);
+#php-btn-dl{
+  background-image: linear-gradient(to right, #3A1C71 0%, #D76D77  51%, #3A1C71  100%);
   margin: 10px;
   padding: 15px 45px;
   text-align: center;
   transition: 0.5s;
   background-size: 200% auto;
   display: block;
+  border-radius: 2px;
 }
 
-#atom-btn-dl:hover{
+#php-btn-dl:hover{
   background-position: right center;
   color: #fff;
   text-decoration: none;
+}
+
+#php-dl-logo{
+  width: 20%;
 }
 
 footer{
@@ -268,7 +277,7 @@ footer{
   height: 4px;
   background: #fff;
   margin-top: 8px;
-  margin-left: 60px;
+  margin-left: 82px;
 }
 
 .social-media{
@@ -286,4 +295,8 @@ footer{
 
 .social-media a:hover{
   color: #d33838;
+}
+
+#php-footer-created{
+  margin-left: 10%;
 }
