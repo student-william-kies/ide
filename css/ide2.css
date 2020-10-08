@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Changa&display=swap');
 
 *{
   margin: 0;
@@ -13,6 +13,7 @@ html{
 
 body{
   background-image: url(../images/eclipse-bg.svg);
+  font-family: 'Changa', sans-serif;
 }
 
 header{
@@ -36,7 +37,7 @@ header{
 }
 
 .nav-links li a:hover{
-  color: #c87e13;
+  color: #ffcc33;
 }
 
 li{
@@ -83,6 +84,11 @@ nav ul{
   margin-left: 870px;
   text-decoration: underline;
   text-transform: uppercase;
+  transition: all 0.3s ease 0s;
+}
+
+.eclipse-link-website a:hover{
+  color: #ffcc33;
 }
 
 #eclipse-logo{
@@ -112,20 +118,20 @@ nav ul{
   font-size: 24px;
   padding: 50px;
   position: relative;
-  top: 18%;
+  top: 8%;
   left: 20%;
   transform: translateX(-50%);
-  width: 35%;
+  width: 40%;
 }
 
 .eclipse-history h1, .eclipse-dl h1{
   font-size: 5rem;
   z-index: 0;
-  color: rgba(255, 175, 24, 0.4);
+  color: rgba(255, 175, 24, 0.8);
 }
 
 #eclipse-screen{
-  margin-top: -360px;
+  margin-top: -600px;
   margin-left: 900px;
   border-radius: 5px;
   box-shadow: 0 20px 30px rgba(0,0,0,0.5);
@@ -139,7 +145,7 @@ nav ul{
 .eclipse-architect h1{
   font-size: 5rem;
   z-index: 0;
-  color: rgba(255, 175, 24, 0.4);
+  color: rgba(255, 175, 24, 0.8);
   text-align: right;
 }
 
@@ -151,10 +157,10 @@ nav ul{
   position: relative;
   left: 50%;
   right: 50%;
-  margin-top: 250px;
+  margin-top: 100px;
   transform: translateX(-50%);
   text-align: center;
-  width: 35%;
+  width: 45%;
   border-radius: 5px;
   background-color: rgba(0, 0, 0, 0.7);
   box-shadow: 0 20px 30px rgba(0,0,0,0.9);
@@ -174,6 +180,10 @@ nav ul{
   align-items: center;
   flex-wrap: wrap;
   margin-top: 100px;
+}
+
+#eclipse-logo-i{
+  color: black;
 }
 
 button{
@@ -230,7 +240,7 @@ footer{
 .border{
   width: 100px;
   height: 4px;
-  background: #fff;
+  background: #ffcc33;
   margin-top: 8px;
   margin-left: 60px;
 }
@@ -249,5 +259,5 @@ footer{
 }
 
 .social-media a:hover{
-  color: #d33838;
+  color: #ffcc33;
 }

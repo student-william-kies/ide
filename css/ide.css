@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
 
 *{
   margin: 0;
@@ -13,6 +13,7 @@ html{
 body{
   height: calc(100vh - 50%);
   background-image: url(../images/main-bg.svg);
+  font-family: 'Julius Sans One', sans-serif;
 }
 
 header{

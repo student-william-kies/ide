@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 
 *{
   margin: 0;
@@ -12,6 +13,7 @@ html{
 
 body{
   background-color: #323232;
+  font-family: 'Quicksand', sans-serif;
 }
 
 header{
@@ -78,12 +80,17 @@ nav ul{
   margin-left: 870px;
   text-decoration: underline;
   text-transform: uppercase;
+  transition: all 0.3s ease 0s;
+}
+
+.atom-link-website a:hover{
+  color: #c87e13;
 }
 
 #main-atom-logo{
   width: 280px;
-  margin-left: 780px;
-  margin-top: 50px;
+  margin-left: 785px;
+  margin-top: 150px;
 }
 
 #main-text-atom{
@@ -92,6 +99,7 @@ nav ul{
   text-align: center;
   margin-top: 10px;
   margin-bottom: 50px;
+  margin-left: -50px;
 }
 
 .atom-teletype{
@@ -123,7 +131,7 @@ nav ul{
 .atom-teletype h1, .atom-dl h1{
   font-size: 5rem;
   z-index: 0;
-  color: rgba(255, 175, 24, 0.4);
+  color: rgba(255, 175, 24, 0.8);
 }
 
 .atom-flex-cat{
@@ -144,7 +152,7 @@ nav ul{
 .atom-git h1{
   font-size: 5rem;
   z-index: 0;
-  color: rgba(255, 175, 24, 0.4);
+  color: rgba(255, 175, 24, 0.8);
   text-align: right;
 }
 
@@ -266,9 +274,9 @@ footer{
 .border{
   width: 100px;
   height: 4px;
-  background: #fff;
+  background: #c87e13;
   margin-top: 8px;
-  margin-left: 60px;
+  margin-left: 70px;
 }
 
 .social-media{
@@ -285,5 +293,5 @@ footer{
 }
 
 .social-media a:hover{
-  color: #d33838;
+  color: #c87e13;
 }
