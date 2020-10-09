@@ -155,3 +155,141 @@ footer{
   margin-left: -470px;
   margin-top: -50px;
 }
+
+@media screen and (max-width: 1100px){
+
+  body{
+    overflow: hidden;
+  }
+
+  .main-info-section{
+    width: 100%;
+  }
+
+  .main-phpstorm{
+    margin-right: 6%;
+  }
+
+  .main-eclipse{
+    margin-right: 6%;
+  }
+
+  #eclipse-title{
+    width: 45%;
+    margin-top: 14%;
+    margin-left: 5%;
+  }
+
+  #eclipse-logo{
+    margin-left: 35%;
+    margin-top: 15%;
+    width: 160%;
+  }
+
+  .main-atom{
+    margin-left: -15%;
+  }
+
+  #atom-title{
+    width: 55%;
+    margin-top: 6%;
+  }
+
+  #atom-logo{
+    width: 100%;
+    margin-left: 142%;
+  }
+
+  .header-info{
+    margin-right: -10%;
+  }
+
+  h1{
+    font-size: 26px;
+  }
+
+  .subtitle-header{
+    font-size: 20px;
+  }
+
+  .footer-container h1{
+    font-size: 24px;
+  }
+
+  footer{
+    margin-top: 7.7%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+
+  #astro{
+    display: none;
+  }
+
+  .title-header h1{
+    margin-left: -125%;
+  }
+
+  .subtitle-header{
+    width: 70%;
+    margin-left: -48%;
+  }
+
+  #cortana{
+    margin-top: 5%;
+  }
+
+  .main-info-section{
+    flex-direction: column;
+  }
+
+  .main-atom{
+    width: 50%;
+  }
+
+  #atom-title{
+    margin-left: 100%;
+    margin-bottom: -10%;
+  }
+
+  #atom-logo{
+    width: 70%;
+    margin-left: 375%;
+  }
+
+  .main-eclipse{
+    width: 50%;
+  }
+
+  #eclipse-title{
+    margin-left: 72%;
+  }
+
+  #eclipse-logo{
+    width: 110%;
+    margin-left: 260%;
+    margin-bottom: -50%;
+  }
+
+  .main-phpstorm{
+    width: 50%;
+  }
+
+  #phpstorm-title{
+    width: 45%;
+    margin-left: 80%;
+    margin-bottom: -10%;
+  }
+
+  #phpstorm-logo{
+    margin-left: 275%;
+    width: 80%;
+  }
+
+  .footer-container{
+    width: 50%;
+    margin-top: -30%;
+    margin-left: -3%;
+  }
+}
